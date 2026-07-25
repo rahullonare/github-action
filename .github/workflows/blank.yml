@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: build step
-        run: echo "i am  ${{ vars.NAME }}"
+        run: echo "my password is  ${{ secrets.PASSWD }}"
   
          
         
