@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: build step
-        run: echo "demo build"
+        run: echo "i am from ${{vars.location}}"
   
          
         
