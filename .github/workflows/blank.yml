@@ -1,11 +1,14 @@
 name: hello world
-on: workflow_dispatch
+on: 
+   push:
+     branches:
+       - main  
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: build step
-        run: echo "my password is  ${{ secrets.PASSWD }}"
+        run: echo "demo build"
   
          
         
